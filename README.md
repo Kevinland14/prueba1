@@ -3,24 +3,6 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    function iniciarSesion() {
-      const usuario = document.getElementById('usuario').value;
-      const contrasena = document.getElementById('contrasena').value;
-
-      // Obtener datos guardados del localStorage
-      const usuarioGuardado = localStorage.getItem('usuario');
-      const contrasenaGuardada = localStorage.getItem('contrasena');
-
-      if (usuario === usuarioGuardado && contrasena === contrasenaGuardada) {
-        // Redirige a la página de bienvenida si es correcto
-        window.location.href = "index.html";
-      } else {
-        // Muestra un mensaje de error si es incorrecto
-        alert('Usuario o contraseña incorrectos.');
-      }
-    }
-  </script>
 </head>
 <body style="margin: 0; height: 80vh; display: flex; justify-content: center; align-items: center; background-color: #3e5f8a;">
 
