@@ -3,25 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Iniciar Sesión</title>
-<style>
-         body {
-            background: linear-gradient(#ADD8E6);
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: blue;
-            margin-bottom: 70px;
-        }
-        p {
-           text-align: left;
-            color: #000000;
-           }
-    </style>
-  <script>
+  
     function iniciarSesion() {
       const usuario = document.getElementById('usuario').value;
       const contrasena = document.getElementById('contrasena').value;
