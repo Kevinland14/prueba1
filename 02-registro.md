@@ -10,7 +10,9 @@
   <form onsubmit="event.preventDefault(); guardarUsuario();">
     <label for="usuario">Usuario:</label>
     <input type="text" id="usuario" name="usuario" required><br><br>
-    
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required><br><br>
+    <button type="submit">Registrarse</button>
   </form>
 </body>
 </html>
