@@ -11,11 +11,6 @@
   <form onsubmit="event.preventDefault(); iniciarSesion();">
     <label for="usuario">Usuario:</label>
     <input type="text" id="usuario" name="usuario" required><br><br>
-
-    <label for="contrasena">Contraseña:</label>
-    <input type="password" id="contrasena" name="contrasena" required><br><br>
-
-    <button type="submit">Iniciar Sesión</button>
 </div>
   </form>
 </body>
