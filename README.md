@@ -4,10 +4,10 @@
 <body>
     <h1> Economia de Mexico </h1>
 
-    <p>Buenas tardes, esta pagina va hablar sobre temas de interes economico en el pais.</p>
-    <p>A sus alrededores, podemos tomar en cuenta algunos paises aledaños.</p>
-    <p>Que son los que nos perjudican o ayudan directamente, tomando en cuenta la direccion de gobierno de algunos presidentes. </p>
-     <p> 
+    Buenas tardes, esta pagina va hablar sobre temas de interes economico en el pais.
+    A sus alrededores, podemos tomar en cuenta algunos paises aledaños.
+    Que son los que nos perjudican o ayudan directamente, tomando en cuenta la direccion de gobierno de algunos presidentes. 
+      
 En esta pagina veremos algunos puntos importante tales como:</p>
      <P> *Economia mexicana en la historia</p> 
      <P> *Oferta y demanda en la economia actual</p>
