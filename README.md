@@ -1,40 +1,61 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Mi Primera Página Web</title>
+    <meta charset="UTF-8">
+    <title>Bienvenido</title>
     <style>
         body {
-            background: linear-gradient(#e3e4e5);
             font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ADD8E6, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
             text-align: center;
-            padding: 50px;
+            background-color: #0000FF;
+            padding: 150px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: blue;
-            margin-bottom: 70px;
+            margin-bottom: 30px;
         }
-        p {
-           text-align: left;
-            color: #000000;
-           }
+        .btn {
+            display: block;
+            width: 200px;
+            padding: 12px;
+            margin: 10px auto;
+            font-size: 28px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .login-btn:hover {
+            background-color: #45a049;
+        }
+        .register-btn {
+            background-color: #2196F3;
+            color: white;
+        }
+        .register-btn:hover {
+            background-color: #1e87dc;
+        }
     </style>
 </head>
 <body>
-    <h1> Economia de Mexico </h1>
 
-    <p>Buenas tardes, esta pagina va hablar sobre temas de interes economico en el pais.</p>
-    <p>A sus alrededores, podemos tomar en cuenta algunos paises aledaños.</p>
-    <p>Que son los que nos perjudican o ayudan directamente, tomando en cuenta la direccion de gobierno de algunos presidentes. </p>
-     <p> 
-En esta pagina veremos algunos puntos importante tales como:</p>
-     <P> *Economia mexicana en la historia</p> 
-     <P> *Oferta y demanda en la economia actual</p>
-     <P> *Aranceles 
-     <p> *Financiamiento en empresas chicas, medianas y grandes</P>
-     <P> *Impuestos </P>
-<div class="contenido">
-    <p>Aranceles</p>
-    <p>Haz clic en el siguiente enlace para visitar aranceles Donald Trump:</p>
-    <a href="https://www.eleconomista.com.mx/internacionales/aranceles-trump-lejia-economica-estadounidenses-20250406-753615.html" target="_blank">Aranceles</a>
-  </div>
+<div class="container">
+    <h1>Bienvenido</h1>
+    <button class="btn login-btn" onclick="location.href='Login.html'">Iniciar Sesión</button>
+    <button class="btn register-btn" onclick="location.href='Registro.html'">Crear Cuenta</button>
+</div>
+
 </body>
 </html>
