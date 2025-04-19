@@ -1,22 +1,5 @@
 <html lang="es">
 <head>
-    <title>Mi Primera Página Web</title>
-    <style>
-        body {
-            background: linear-gradient(#e3e4e5);
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: blue;
-            margin-bottom: 70px;
-        }
-        p {
-           text-align: left;
-            color: #000000;
-           }
-    </style>
 </head>
 <body>
     <h1> Economia de Mexico </h1>
